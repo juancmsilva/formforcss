@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Formatando formulários no CSS</title>
+</head>
+<body>
+    <h1>Página teste</h1>
+    <form action="pag02.html">
+        <label>
+            Nome Completo: <br>
+            <input type="text" name="user" id="user" required>
+        </label>
+       
+
+        <label>
+            Descrição: <br>
+            <textarea name="desc"></textarea>
+        </label>
+        
+
+        <label>
+            Categoria: <br>
+            <select name="categoria">
+                <option value="1">Categoria 1</option>
+                <option value="2">Categoria 2</option>
+                <option value="3">Categoria 3</option>
+                <option value="4">Categoria 4</option>
+                <option value="5">Categoria 5</option>
+            </select>
+        </label>
+       
+        <label for="chec">
+            <input type="checkbox" name="" id="chec" required>
+            Eu declaro que li e aceito os <a href="terms.html" id="terms-link" target="_blank">termos de uso.</a>
+        </label> <br>
+        <button>Fazer cadastro</button>
+    </form>
+</body>
+</html>
